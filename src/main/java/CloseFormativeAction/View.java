@@ -48,19 +48,19 @@ public class View {
 		lblSessionFinished = new JTextArea("");
 		lblSessionFinished.setEditable(false);
 		lblSessionFinished.setBackground(frame.getBackground());
-		frame.getContentPane().add(lblSessionFinished, "cell 1 1, t, w 220!, h 50!");
+		frame.getContentPane().add(lblSessionFinished, "cell 1 1, t, w 220!, h 55!");
 				
 		frame.getContentPane().add(new JLabel("Fees:"), "cell 1 2, t");
 		lblFeesCorrect = new JTextArea("");
 		lblFeesCorrect.setEditable(false);
 		lblFeesCorrect.setBackground(frame.getBackground());
-		frame.getContentPane().add(lblFeesCorrect, "cell 1 2, t, w 300!, h 60!");
+		frame.getContentPane().add(lblFeesCorrect, "cell 1 2, t, w 300!, h 65!");
 		
 		frame.getContentPane().add(new JLabel("Remuneration:"), "cell 1 3, t");
 		lblRemunerationsCorrect = new JTextArea("");
 		lblRemunerationsCorrect.setEditable(false);
 		lblRemunerationsCorrect.setBackground(frame.getBackground());
-		frame.getContentPane().add(lblRemunerationsCorrect, "cell 1 3, t, w 270!, h 60!");
+		frame.getContentPane().add(lblRemunerationsCorrect, "cell 1 3, t, w 270!, h 65!");
 		
 		btnCloseFA = new JButton("Close Formative Action");
 		btnCloseFA.setEnabled(false);

@@ -6,11 +6,11 @@
 
   <groupId>PL53</groupId>
   <artifactId>SI2020-PL53</artifactId>
-  <version>0.9</version>
+  <version>1.0</version>
 
   <name>SI2020-PL53</name>
   <!-- FIXME change it to the project's website -->
-  <url>https://github.com/siroba/SI2020-PL53/pulls</url>
+  <url>https://github.com/siroba/SI2020-PL53</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

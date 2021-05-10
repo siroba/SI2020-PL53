@@ -113,6 +113,7 @@ public class Teacher {
 		st.close();
 		conn.close();
 		rs.close();
+		conn.close();
 		return list;
 	}
 

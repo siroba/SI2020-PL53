@@ -33,7 +33,9 @@ public class SwingMain {
 			public void run() {
 				try {
 					File f= new File("database.db");
-					f.delete();
+					
+					if(f.exists())
+						f.delete();
 					
 					SwingMain window = new SwingMain();
 					window.frame.setVisible(true);
